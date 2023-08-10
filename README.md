@@ -41,4 +41,20 @@ void printer(int j){
   }
 }
 
+// class for creating a person and their properties
+void main(){
+  Person p1 = Person(name: 'Abhishek', age: 21);
+  print('My name is ${p1.name} and my age is ${p1.age} years old');
+}
+
+
+// class called person
+class Person{
+  String? name;
+  int? age;
+  
+  Person({required this.name, required this.age});
+}
+
+
 
