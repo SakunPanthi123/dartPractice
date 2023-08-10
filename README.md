@@ -56,5 +56,22 @@ class Person{
   Person({required this.name, required this.age});
 }
 
+// static keyword
+void main(){
+  Person.printer();
+}
+
+
+// class called person
+class Person{
+  static final String name = 'name';
+  static final String age = 'number';
+  
+  
+  static void printer(){
+    print('My name is $name and my age is $age years old');
+  }
+}
+
 
 
